@@ -4,7 +4,7 @@ Boilerplate proyek Flask menggunakan Blueprint. Gunakan template ini untuk membu
 
 ## Kebutuhan Dasar
 - Python versi 3.7 atau yang lebih baru + Pipenv
-- NodeJS versi 12.8 atau yang lebih baru
+- NodeJS versi 12.8.1 atau yang lebih baru
 - NPM (sudah terpaket dengan Nodejs)
 
 ## Panduan Dasar
