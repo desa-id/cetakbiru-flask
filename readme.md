@@ -5,7 +5,7 @@ Boilerplate proyek Flask menggunakan Blueprint. Gunakan template ini untuk membu
 ## Kebutuhan Dasar
 - Python versi 3.6 atau yang lebih baru
 - Python virtualenv untuk Python 3
-- NodeJS versi 10  atau yang lebih baru
+- NodeJS versi 10 atau yang lebih baru
 - NPM (sudah terpaket dengan NodeJS)
 
 ## Panduan Dasar
@@ -43,7 +43,7 @@ export FLASK_ENV=development
 flask run
 
 # Jika ingin menjalankan menggunakan gunicorn
-venv/bin/gunicorn run:app -c config/gunicorn.py
+venv/bin/gunicorn -c config/gunicorn.py wsgi
 ```
 
 > Penting: pastikan selalu mengaktifkan virtualenv saat development!
