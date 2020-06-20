@@ -59,6 +59,7 @@ Aplikasi akan berjalan di url berikut:
 - Halaman index : http://localhost:5000
 - Halaman API : http://localhost:5000/api
 - Contoh halaman : http://localhost:5000/hello
+- Cek koneksi dabase : http://localhost:5000/testdb
 
 ## License
 
