@@ -67,6 +67,29 @@ Aplikasi akan berjalan di url berikut:
 - Contoh halaman : http://localhost:5000/hello
 - Cek koneksi dabase : http://localhost:5000/testdb
 
+## Deploy ke Heroku
+```sh
+heroku buildpacks:set heroku/python
+heroku buildpacks:set heroku/nodejs
+
+heroku config:set WEB_CONCURRENCY=3
+heroku config:set APP_HOST=127.0.0.1
+heroku config:set APP_PORT=5000
+heroku config:set APP_KEY=secretkey123
+heroku config:set APP_ENV=production
+heroku config:set APP_DEBUG=False
+heroku config:set DB_TYPE=sqlite
+heroku config:set DB_PORT=5432
+heroku config:set DB_HOST=127.0.0.1
+heroku config:set DB_DATABASE=flask_app
+heroku config:set DB_USERNAME=postgres
+heroku config:set DB_PASSWORD=secret
+heroku config:set MAIL_USERNAME=
+heroku config:set MAIL_PASSWORD=
+heroku config:set MAIL_HOST=smtp.mailtrap.io
+heroku config:set MAIL_PORT=587
+```
+
 ## License
 
 Copyright 2020 - datadesa.id
