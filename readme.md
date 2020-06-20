@@ -38,6 +38,10 @@ npm run build
 
 ### 5. Jalankan aplikasi
 ```sh
+# Persiapkan file konfigurasi (sesuaikan parameternya)
+cp .env.example .env
+
+# Menjalankan menggunakan flask
 export FLASK_APP=src
 export FLASK_ENV=development
 flask run
