@@ -11,13 +11,16 @@ Boilerplate proyek Flask menggunakan Blueprint. Gunakan template ini untuk membu
 ## Panduan Dasar
 
 ### 1. Clone proyek
+
+Nama folder `myapp` ganti sesuai dengan nama aplikasi yang akan dibuat.
+
 ```sh
 git clone https://github.com/desa-id/cetakbiru-flask myapp
 ```
 
 ### 2. Buat virtual environment di folder venv
 
-Nama folder `venv` menyesuaikan saja, dan nama folder `myapp` ganti sesuai dengan nama aplikasi yang akan dibuat.
+Nama folder `venv` menyesuaikan saja, tidak harus `venv`
 
 ```sh
 cd myapp
