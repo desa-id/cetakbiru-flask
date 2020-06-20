@@ -41,3 +41,5 @@ yarn.lock
 
 # Project specific
 static/assets
+storage/logs/*
+!storage/logs/.gitkeep
