@@ -3,12 +3,12 @@ from flask import Blueprint, render_template
 
 site = Blueprint('site', __name__)
 
-@site.route('/')
+@site.route('/', methods=['GET'])
 def index():
     """Render template Jinja."""
     return render_template('hello.html')
 
-@site.route('/hello')
+@site.route('/hello', methods=['GET'])
 def hello():
     return '<h1>Hello from another page!</h1>'
 
