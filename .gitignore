@@ -1,6 +1,7 @@
 # Python essentials
 __pycache__/
 .parcel-cache/
+.cache/
 .DS_Store
 .python-version
 *.py[cod]

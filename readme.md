@@ -3,7 +3,11 @@
 Template atau boilerplate proyek Flask menggunakan Blueprint. Silahkan gunakan template ini untuk membuat
 aplikasi Flask yang fleksibel.
 
-Setidaknya Anda memerlukan `Python versi 3.6` atau yang lebih baru, serta `virtualenv` untuk Python 3.
+## Kebutuhan Dasar
+- Python versi 3.6 atau yang lebih baru
+- Python virtualenv untuk Python 3
+- NodeJS versi 10  atau yang lebih baru
+- NPM (sudah terpaket dengan NodeJS)
 
 ## Panduan Dasar
 
@@ -13,9 +17,12 @@ git clone https://github.com/desa-id/cetakbiru-flask myapp
 ```
 
 ### 2. Buat virtual environment di folder venv
+
+Nama folder `venv` bisa diganti, menyesuaikan saja, dan nama folder `myapp` ganti sesuai dengan nama aplikasi yang akan dibuat.
+
 ```sh
 cd myapp
-virtualenv venv
+virtualenv --python=python3 env
 ```
 
 ### 3. Instalasi dependensi
