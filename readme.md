@@ -51,6 +51,9 @@ flask run
 
 # Jika ingin menjalankan menggunakan gunicorn
 venv/bin/gunicorn -c config/gunicorn.py wsgi
+
+# Jika ingin menjalankan menggunakan uwsgi
+uwsgi --http-socket :5000 --plugin python3 --module wsgi:application
 ```
 
 > Penting: pastikan selalu mengaktifkan virtualenv saat development!
