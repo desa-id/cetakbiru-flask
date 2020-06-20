@@ -21,7 +21,7 @@ Nama folder `venv` menyesuaikan saja, dan nama folder `myapp` ganti sesuai denga
 
 ```sh
 cd myapp
-virtualenv --python=python3 env
+virtualenv --python=python3 venv
 ```
 
 ### 3. Instalasi dependensi
