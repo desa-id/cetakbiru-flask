@@ -1,5 +1,6 @@
 # Python essentials
 __pycache__/
+.parcel-cache/
 .DS_Store
 .python-version
 *.py[cod]
@@ -38,5 +39,4 @@ npm-debug.log
 yarn.lock
 
 # Project specific
-static/css
-static/js
+static/assets

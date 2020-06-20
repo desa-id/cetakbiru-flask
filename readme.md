@@ -24,7 +24,13 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. Jalankan aplikasi
+### 4. Compile asset javascript dan css
+```sh
+npm install --no-optional --no-audit
+npm run build
+```
+
+### 5. Jalankan aplikasi
 ```sh
 export FLASK_APP=src
 flask run

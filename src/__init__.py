@@ -5,7 +5,7 @@ from .api.routes import api
 from .site.routes import site
 
 BASE_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TEMPLATE_PATH = os.path.join(BASE_PATH, 'resources/templates/')
+TEMPLATE_PATH = os.path.join(BASE_PATH, 'templates/')
 STATIC_PATH = os.path.join(BASE_PATH, 'static/')
 
 def create_app():
