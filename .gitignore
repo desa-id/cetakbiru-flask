@@ -36,3 +36,7 @@ package-lock.json
 yarn-error.log
 npm-debug.log
 yarn.lock
+
+# Project specific
+static/css
+static/js

@@ -1,3 +1,4 @@
+import os
 from flask import Blueprint, render_template
 
 site = Blueprint('site', __name__)
@@ -14,4 +15,4 @@ def hello():
 @site.errorhandler(404)
 def error_404(error):
     """404 error handling."""
-    return render_template('404.html', error = error)
+    return render_template('errors/404.html', error = error)
