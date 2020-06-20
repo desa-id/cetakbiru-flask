@@ -35,7 +35,7 @@ npm run build
 cp .env.example .env
 
 # Menjalankan menggunakan flask
-export FLASK_APP=src
+export FLASK_APP=app
 flask run
 ```
 
