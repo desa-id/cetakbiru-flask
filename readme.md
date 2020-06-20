@@ -1,7 +1,6 @@
 # Flask Blueprint
 
-Template atau boilerplate proyek Flask menggunakan Blueprint. Silahkan gunakan template ini untuk membuat
-aplikasi Flask yang fleksibel.
+Boilerplate proyek Flask menggunakan Blueprint. Gunakan template ini untuk membuat aplikasi Flask yang fleksibel.
 
 ## Kebutuhan Dasar
 - Python versi 3.6 atau yang lebih baru
@@ -18,7 +17,7 @@ git clone https://github.com/desa-id/cetakbiru-flask myapp
 
 ### 2. Buat virtual environment di folder venv
 
-Nama folder `venv` bisa diganti, menyesuaikan saja, dan nama folder `myapp` ganti sesuai dengan nama aplikasi yang akan dibuat.
+Nama folder `venv` menyesuaikan saja, dan nama folder `myapp` ganti sesuai dengan nama aplikasi yang akan dibuat.
 
 ```sh
 cd myapp
