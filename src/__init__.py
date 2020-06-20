@@ -21,8 +21,8 @@ def create_app():
 
     with app.app_context():
         # Import Blueprint modules
-        from .api.routes import api
-        from .site.routes import site
+        from .api import api
+        from .site import site
 
         # Register Blueprints
         app.register_blueprint(api)
