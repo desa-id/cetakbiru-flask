@@ -13,12 +13,14 @@
     },
     "homepage": "https://github.com/desa-id/cetakbiru-flask#readme",
     "scripts": {
-        "build": "parcel build application.js -d static/assets --public-url . --cache-dir .parcel-cache",
+        "clean": "rimraf ./static/assets",
+        "build": "npm run clean && parcel build application.js -d static/assets --public-url . --cache-dir .parcel-cache",
         "watch": "parcel watch application.js -d static/assets --public-url . --cache-dir .parcel-cache",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "devDependencies": {
         "autoprefixer": "^9.8.1",
+        "rimraf": "^3.0.2",
         "parcel-bundler": "^1.12.4"
     },
     "dependencies": {
