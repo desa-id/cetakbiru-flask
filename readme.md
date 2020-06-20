@@ -41,6 +41,9 @@ npm run build
 export FLASK_APP=src
 export FLASK_ENV=development
 flask run
+
+# Jika ingin menjalankan menggunakan gunicorn
+venv/bin/gunicorn run:app -c config/gunicorn.py
 ```
 
 > Penting: pastikan selalu mengaktifkan virtualenv saat development!
