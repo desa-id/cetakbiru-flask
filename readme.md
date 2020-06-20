@@ -5,7 +5,7 @@ Boilerplate proyek Flask menggunakan Blueprint. Gunakan template ini untuk membu
 ## Kebutuhan Dasar
 - Python versi 3.6 atau yang lebih baru
 - Python virtualenv untuk Python 3
-- NodeJS versi 10 atau yang lebih baru
+- NodeJS versi 12.8 atau yang lebih baru
 - NPM (sudah terpaket dengan NodeJS)
 
 ## Panduan Dasar
@@ -69,9 +69,11 @@ Aplikasi akan berjalan di url berikut:
 
 ## Deploy ke Heroku
 ```sh
+# Konfigurasi runtime di Heroku
 heroku buildpacks:set heroku/python
 heroku buildpacks:set heroku/nodejs
 
+# Heroku environment variable
 heroku config:set WEB_CONCURRENCY=3
 heroku config:set APP_HOST=127.0.0.1
 heroku config:set APP_PORT=5000
@@ -88,6 +90,9 @@ heroku config:set MAIL_USERNAME=
 heroku config:set MAIL_PASSWORD=
 heroku config:set MAIL_HOST=smtp.mailtrap.io
 heroku config:set MAIL_PORT=587
+
+# Deploy ke Heroku
+git push heroku master
 ```
 
 ## License
